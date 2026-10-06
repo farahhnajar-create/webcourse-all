@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+nav{
+    width: 100%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    background-color:white;
+}
+nav a:first-child{
+    font-size:30px;
+}
+nav a{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    margin:0;
+    padding:10px 0px;
+    text-decoration: none;
+}
+
+.iphone-section{
+    width:100%;
+    min-height:700px;
+    text-align:center;
+    padding-top: 60px;
+    background-image: url(images/apple-iphone.jpeg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.iphone-info h1{
+    font-size:65px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.iphone-info h2{
+    font-size:32px;
+    font-weight:400;
+    margin-bottom:28px;
+}
+.iphone-info button{
+    font-size:15px;
+    padding:12px 23px;
+    border-radius:25px;
+    cursor:pointer;
+    width:140px;
+    height:50px;
+}
+.Learn-more{
+    background-color:#211086c7;
+    color:white;
+    border:2px solid #211086c7;
+    margin-right:12 px;
+}
+.Shop-iPhone{
+    background-color: white;
+    color:#211086c7;
+    border:2px solid #211086c7;
+}
