@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+button{
+    display: block;
+    margin: 20px;
+}
+.Search {
+    background: #f3c1e0;
+    border-color:#792a5b;
+    color: #531c23;
+    border-radius: 25px; 
+    padding: 1px 25px; 
+    font-size: 7px;
+    border-width: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#plus {
+    color: #ffff;
+    border: none;
+    background-color: rgb(88, 29, 123);
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 8px;
+}
+
+.Create {
+    color: #ffff;
+    background-color: #049853;
+    border: #023a20 solid 2px;
+    border-radius: 4px;
+    padding: 7px 9px;
+    box-shadow: 2px 2px #070707;
+    font-size: 8px;
+
+}

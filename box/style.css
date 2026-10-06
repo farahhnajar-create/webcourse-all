@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container {
+    max-width: 950px;
+    background-color: #66b1c0b6;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.top-nav {
+    background-color: #096515;
+    height: 150px;
+    margin-bottom:10px;
+}
+.content-wrapper{
+    display:flex;
+    gap:15px;
+}
+.side-nav {
+    background-color: #341389;
+    height: 300px;
+    flex: 1;
+
+}
+
+.main {
+    background-color:darkmagenta;
+    height: 400px;
+    padding: 12px;
+    box-sizing: border-box;
+    flex: 3;
+    
+}
+
+.sub-content {
+    height: 200px;
+    background-color: #d6f50e;
+    flex: 1;
+}
+
+.advertisement {
+    background-color :darkred;
+    height: 120px;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    gap: 25px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+
+}

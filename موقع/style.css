@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 92%;
+    height: 90px;
+    margin: 5px auto;
+    padding: 18px 22px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    font-size: 40px;
+}
+.search{
+    width: 48%;
+    height: 36px;
+    padding-left: 10px;
+    border: 2px solid black;
+    font-size: 15px;
+}
+.login{
+    background-color:blue;
+    color:white ;
+    font-size: 15px;
+    padding: 6px 12px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+.container{
+    width: 92%;
+    margin: 25px auto;
+    gap: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.left-side{
+    width:65%;
+}
+.box{
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.info{
+    width: 35%;
+}
+.info h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 18px;
+    margin-bottom: 10px 0;
+}
+.description{
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.description a{
+    color: #4ec4f2;
+}
+.likes{
+    background-color: rgb(242, 193, 78);
+    color: black;
+    padding: 7px 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 15px;
+}
+.right-side{
+    font-size: 36%;
+}
+.right-box{
+    width: 100%;
+    padding: 25px;
+    border: 2px solid black;
+}
+.right-box h3{
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+.definition{
+    width: 100%;
+    background-color: #4caf50;
+    padding: 8px;
+    border: 2px solid black;
+    box-shadow: 2px 2px beige;
+    font-size: 16px;
+}
+.user-box{
+    width: 92%;
+    margin: 25px auto;
+    padding: 25px;
+    border: 2px solid black;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.user-info h3{
+    font-size: 20px;
+}
+.user-info button{
+    margin-left: 35%;
+    background-color: #f2c14e;
+    padding: 7px 15px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 15px;
+}
+.user-body{
+    margin-top: 25px;
+    font-size: 18px;
+}
